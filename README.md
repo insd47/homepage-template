@@ -1,5 +1,7 @@
 # `개인 포트폴리오 홈페이지 템플릿`
 
+<img src="https://user-images.githubusercontent.com/67549204/96617563-bf1a3d00-133e-11eb-9eb3-bedcc797f12c.png" />
+
 당신의 포트폴리오를 꾸며보세요.<br />
 최대한 쉽게 수정할 수 있도록 노력해 보았습니다.
 
