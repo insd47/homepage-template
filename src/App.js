@@ -5,6 +5,7 @@ import './fontface.css';
 import './Colors.css';
 import pattern from "img/pattern.png";
 import hello from 'img/hello.svg';
+import {ReactComponent as Logo} from 'img/logo.svg';
 
 
 // 여기에 이미지 불러오세요 //
@@ -163,6 +164,9 @@ const App = () => {
       <Sec2 nav={nav} activity={activity} sec2cont={sec2cont} />
       <Sec3 nav={nav} stack={stack} />
       <div className={nav === 0 ? "sec0_bg" : "sec0_bg_in"}>
+        <div className="sec0_watermark">
+          <p style={{display: "inline-block", verticalAlign: "middle"}}>Powered by </p><Logo style={{verticalAlign: "middle", marginLeft: "7px"}} />
+        </div>
         <div className="sec0_bg_pattern" style={{backgroundImage: info.bgmode === 0 ? `url("${pattern}")` : `url(${hello})`, opacity: info.bgmode === 0 ? "0.028" : "0.07"}}/>
       </div>
       <div className="entire_background" />
