@@ -17,7 +17,7 @@
 ### `npm start`
 
 개발 모드로 어플리케이션을 실행합니다.<br />
-[http://localhost:3000](http://localhost:3000) 을 열어 미리볼 수 있습니다.
+[http://localhost:3000](http://localhost:3000) 을 열어 미리 볼 수 있습니다.
 
 페이지를 수정하면 자동으로 새로고침됩니다.<br />
 콘솔에서 오류를 확인할 수도 있습니다.
