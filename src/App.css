@@ -164,6 +164,17 @@ nav li {
   height: 215.56;
   position: absolute;
 }
+.sec0_watermark {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: NotoSansMedium;
+  font-size: 18px;
+  color: var(--sec0text);
+  fill: var(--sec0text);
+  opacity: 0.5;
+}
 .sec0_bg_pattern {
   position: absolute;
   width: 120%;
