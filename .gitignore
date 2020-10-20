@@ -4,9 +4,11 @@
 /node_modules
 /.pnp
 .pnp.js
+/.netlify
 
 # testing
 /coverage
+/bak
 
 # production
 /build

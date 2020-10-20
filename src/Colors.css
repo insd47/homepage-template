@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+:root {
+  --sec0text: white; /* 메인 화면의 텍스트 컬러 */
+  --bg: white; /* 배경화면 컬러 */
+  --text:black; /* 텍스트 컬러 */
+  --accent: #ffa600; /* 엑센트 컬러 및 메인 화면의 배경화면 컬러 */
+}
