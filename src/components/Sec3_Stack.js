@@ -12,9 +12,9 @@ class Sec3_Stack extends React.Component {
                     </div>
                     <div className="sec3_stack_p">
                         <div style={{width: "100%"}}>
-                            <p style={{left: `${this.props.percent}`, color: this.props.color}}>{this.props.percent}</p>
+                            <p style={{left: `${this.props.nav === 3 ? this.props.percent : "0"}`, color: this.props.color}}>{this.props.percent}</p>
                             <div className="sec3_stack_percent">
-                                <div style={{width: `${this.props.percent}`, backgroundColor: this.props.color, height: "3px"}}  />
+                                <div style={{width: `${this.props.nav === 3 ? this.props.percent : "0"}`, backgroundColor: this.props.color, height: "3px", transition: "width 0.7s"}}  />
                             </div>
                         </div>
                     </div>

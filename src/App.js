@@ -16,6 +16,7 @@ import reactimg from 'img/react.png';
 
 
 const App = () => {
+  const [ nav, setNav ] = useState(0);
 
   // 수정할 부분 (소스 수정도 가능합니다) //
     const info = {
@@ -82,10 +83,10 @@ const App = () => {
       act:
         <div className="sec2_all">
           <Activity 
-          img={banner1} 
-          title="예시" 
-          content="예시 텍스트입니다. 당신의 작업을 여기에 채우세요." 
-          link="http://www.example.com/" 
+          img={banner1} // 사진
+          title="예시" // 제목
+          content="예시 텍스트입니다. 당신의 작업을 여기에 채우세요." // 내용
+          link="http://www.example.com/" // 링크
           />
           <Activity 
           img={banner2} 
@@ -110,25 +111,29 @@ const App = () => {
       stk:
         <div className="sec3_container">
           <Sec3Stack 
-          title="React" 
-          content="참고로 이 페이지는 React를 기반으로 만들어졌습니다."
-          percent="90%"
-          color="#61dafb"
+          nav={nav} // 건드리지 마세요
+          title="React" // 제목
+          content="참고로 이 페이지는 React를 기반으로 만들어졌습니다." // 내용
+          percent="90%" // 진행도
+          color="#61dafb" // 색깔
           img={reactimg}
           />
           <Sec3Stack 
+          nav={nav}
           title="예시" 
           content="예시 텍스트입니다. 당신의 스택을 여기에 채우세요."
           percent="40%"
           color="green"
           />
           <Sec3Stack 
+          nav={nav}
           title="예시" 
           content="예시 텍스트입니다. 당신의 스택을 여기에 채우세요."
           percent="60%"
           color="orange"
           />
           <Sec3Stack 
+          nav={nav}
           title="예시" 
           content="예시 텍스트입니다. 당신의 스택을 여기에 채우세요."
           percent="30%"
@@ -139,8 +144,6 @@ const App = () => {
 
 
   // 끝 //
-
-  const [ nav, setNav ] = useState(0);
 
   const onScroll = () => {
     const winScroll = document.documentElement.scrollTop;
