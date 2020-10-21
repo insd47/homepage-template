@@ -21,7 +21,7 @@ readme.txt를 보고 수정하는 것을 추천드립니다.
 페이지를 수정하면 자동으로 새로고침됩니다.<br />
 콘솔에서 오류를 확인할 수도 있습니다.
 
-### `npm run build`
+### `npm run build` // `yarn build`
 
 수정 완료 후 `build` 폴더에 빌드합니다.<br />
 [deployment](https://facebook.github.io/create-react-app/docs/deployment)을 확인하여 추가 정보를 얻으세요.
