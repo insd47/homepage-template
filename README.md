@@ -13,7 +13,7 @@ readme.txt를 보고 수정하는 것을 추천드립니다.
 
 ## 사용 가능한 스크립트
 
-### `npm start`
+### `npm start` // `yarn start`
 
 개발 모드로 어플리케이션을 실행합니다.<br />
 [http://localhost:3000](http://localhost:3000) 을 열어 미리 볼 수 있습니다.
