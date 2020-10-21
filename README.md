@@ -1,4 +1,4 @@
-# `개인 포트폴리오 홈페이지 템플릿`
+# 개인 포트폴리오 홈페이지 템플릿
 
 <img src="https://user-images.githubusercontent.com/67549204/96622804-626e5080-1345-11eb-9fd9-7defbf544685.png" />
 
@@ -10,6 +10,14 @@ readme.txt를 보고 수정하는 것을 추천드립니다.
 
 * 이 프로젝트는 [Create React App](https://github.com/facebook/create-react-app)을 통하여 만들어졌습니다.
 * 모바일 대응은 아직 되어있지 않습니다. 빠른 시일 내에 대응하겠습니다.
+
+## 사용 방법
+
+1. Node.js를 설치합니다.
+2. 프로젝트의 압축을 푼 경로로 가서 다음 명령을 실행합니다.
+### `npm i`
+3. 프로젝트를 실행합니다:
+### `npm start` // `yarn start`
 
 ## 사용 가능한 스크립트
 
